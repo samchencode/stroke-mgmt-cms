@@ -12,10 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "AlgorithmId": {
-      "type": "uid",
-      "required": true
-    },
     "Title": {
       "type": "string",
       "required": true,
@@ -46,6 +42,11 @@
       "type": "component",
       "repeatable": true,
       "component": "algorithm-components.switch"
+    },
+    "AlgorithmId": {
+      "type": "customField",
+      "customField": "plugin::field-uuid.uuid",
+      "required": true
     }
   }
 }
