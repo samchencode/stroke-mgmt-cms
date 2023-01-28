@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_algorithm_components_switches",
+  "info": {
+    "displayName": "Switch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "required": true
+    },
+    "Value": {
+      "type": "integer",
+      "required": true
+    },
+    "SwitchId": {
+      "type": "customField",
+      "customField": "plugin::field-uuid.uuid"
+    }
+  }
+}

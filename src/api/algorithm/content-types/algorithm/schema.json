@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "algorithms",
+  "info": {
+    "singularName": "algorithm",
+    "pluralName": "algorithms",
+    "displayName": "Algorithm",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AlgorithmId": {
+      "type": "uid",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true,
+      "default": "Untitled"
+    },
+    "Summary": {
+      "type": "string",
+      "required": true
+    },
+    "Thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Body": {
+      "type": "richtext",
+      "required": true
+    },
+    "outcomes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "algorithm-components.outcome"
+    },
+    "switches": {
+      "type": "component",
+      "repeatable": true,
+      "component": "algorithm-components.switch"
+    }
+  }
+}

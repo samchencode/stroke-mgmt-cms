@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_algorithm_components_criteria",
+  "info": {
+    "displayName": "Criterion"
+  },
+  "options": {},
+  "attributes": {
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "GreaterThan",
+        "LessThan",
+        "None"
+      ],
+      "default": "None",
+      "required": true
+    },
+    "Value": {
+      "type": "integer",
+      "required": false
+    }
+  }
+}

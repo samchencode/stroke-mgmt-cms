@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_algorithm_components_outcomes",
+  "info": {
+    "displayName": "Outcome",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Body": {
+      "type": "richtext",
+      "required": true
+    },
+    "criterion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "algorithm-components.criterion"
+    }
+  }
+}
