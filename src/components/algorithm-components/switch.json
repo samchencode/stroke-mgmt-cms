@@ -13,10 +13,6 @@
     "Value": {
       "type": "integer",
       "required": true
-    },
-    "SwitchId": {
-      "type": "customField",
-      "customField": "plugin::field-uuid.uuid"
     }
   }
 }
