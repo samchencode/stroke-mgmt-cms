@@ -16,8 +16,6 @@ const cmpts = {
 
 const { md } = new StrapiMarkdown(model, cmpts);
 
-// FIXME: md doesn't work with component fields like outcomes and switches yet
-
 module.exports = createCoreController('api::algorithm.algorithm', () => ({
   async find(ctx) {
     const { data, meta } = await super.find(ctx);
