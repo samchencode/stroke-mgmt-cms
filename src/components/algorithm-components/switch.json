@@ -13,6 +13,9 @@
     "Value": {
       "type": "integer",
       "required": true
+    },
+    "Description": {
+      "type": "richtext"
     }
   }
 }

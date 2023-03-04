@@ -1,7 +1,8 @@
 {
   "collectionName": "components_algorithm_components_criteria",
   "info": {
-    "displayName": "Criterion"
+    "displayName": "Criterion",
+    "description": ""
   },
   "options": {},
   "attributes": {
