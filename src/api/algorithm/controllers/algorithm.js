@@ -18,11 +18,15 @@ const { md } = new StrapiMarkdown(model, cmpts);
 
 module.exports = createCoreController('api::algorithm.algorithm', () => ({
   async find(ctx) {
-    const { data, meta } = await super.find(ctx);
+    const result = await super.find(ctx);
+    if(!result) return result;
+    const { data, meta } = result;
     return { data: await md(data), meta };
   },
   async findOne(ctx) {
-    const { data, meta } = await super.findOne(ctx);
+    const result = await super.findOne(ctx);
+    if(!result) return result;
+    const { data, meta } = result;
     return { data: await md(data), meta };
   },
 }));
