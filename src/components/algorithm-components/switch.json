@@ -10,12 +10,14 @@
       "type": "string",
       "required": true
     },
-    "Value": {
-      "type": "integer",
-      "required": true
-    },
     "Description": {
       "type": "richtext"
+    },
+    "levels": {
+      "type": "component",
+      "repeatable": true,
+      "component": "algorithm-components.level",
+      "min": 1
     }
   }
 }

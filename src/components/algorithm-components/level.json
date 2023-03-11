@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_algorithm_components_levels",
+  "info": {
+    "displayName": "Level",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "required": true
+    },
+    "Value": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
