@@ -1,3 +1,3 @@
-module.exports = ({ env }) => ({
-  url: env("RENDER_EXTERNAL_URL")
-});
+module.exports = {
+  url: "stroke-mgmt-cms.a2hosted.com"
+};
