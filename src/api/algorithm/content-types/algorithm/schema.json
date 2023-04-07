@@ -42,11 +42,6 @@
       "type": "component",
       "repeatable": true,
       "component": "algorithm-components.switch"
-    },
-    "AlgorithmId": {
-      "type": "customField",
-      "customField": "plugin::field-uuid.uuid",
-      "required": true
     }
   }
 }

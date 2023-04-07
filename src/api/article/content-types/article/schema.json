@@ -30,11 +30,6 @@
       ],
       "default": "Article",
       "required": true
-    },
-    "ArticleId": {
-      "type": "customField",
-      "required": true,
-      "customField": "plugin::field-uuid.uuid"
     }
   }
 }
