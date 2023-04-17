@@ -30,6 +30,9 @@
       ],
       "default": "Article",
       "required": true
+    },
+    "Summary": {
+      "type": "string"
     }
   }
 }

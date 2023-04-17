@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "placeholder_images",
+  "info": {
+    "singularName": "placeholder-image",
+    "pluralName": "placeholder-images",
+    "displayName": "Placeholder Image"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
