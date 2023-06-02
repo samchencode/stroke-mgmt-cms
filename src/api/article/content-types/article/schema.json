@@ -26,7 +26,8 @@
         "Article",
         "Stroke Facts",
         "Stroke Signs",
-        "Disclaimer"
+        "Disclaimer",
+        "About"
       ],
       "default": "Article",
       "required": true
