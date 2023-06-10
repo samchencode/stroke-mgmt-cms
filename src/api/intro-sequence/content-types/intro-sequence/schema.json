@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "intro_sequences",
+  "info": {
+    "singularName": "intro-sequence",
+    "pluralName": "intro-sequences",
+    "displayName": "IntroSequence",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    },
+    "suggestedAlgorithm": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::algorithm.algorithm"
+    },
+    "suggestAlgorithmAfterArticle": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    }
+  }
+}
