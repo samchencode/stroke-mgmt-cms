@@ -24,8 +24,6 @@
       "type": "enumeration",
       "enum": [
         "Article",
-        "Stroke Facts",
-        "Stroke Signs",
         "Disclaimer",
         "About"
       ],
