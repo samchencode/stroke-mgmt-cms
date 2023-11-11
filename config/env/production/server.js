@@ -1,4 +1,4 @@
 module.exports = {
-  url: "https://stroke-mgmt-cms.a2hosted.com",
+  url: env("SERVER_URL"),
   port: 0,
 };
