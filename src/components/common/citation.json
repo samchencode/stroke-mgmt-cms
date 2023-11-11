@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_common_citations",
+  "info": {
+    "displayName": "Citation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Citation": {
+      "type": "string"
+    }
+  }
+}

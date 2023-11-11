@@ -53,6 +53,11 @@
       "type": "boolean",
       "default": true,
       "required": true
+    },
+    "citations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.citation"
     }
   }
 }

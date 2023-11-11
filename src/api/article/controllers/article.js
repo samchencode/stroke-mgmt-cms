@@ -13,6 +13,7 @@ const cmpts = {
   'algorithm-components.outcome': require('../../../components/algorithm-components/outcome.json') ,
   'algorithm-components.switch': require('../../../components/algorithm-components/switch.json'),
   'algorithm-components.level': require('../../../components/algorithm-components/level.json'),
+  'common.citation': require('../../../components/common/citation.json'),
 }
 
 const { md } = new StrapiMarkdown(model, cmpts);
