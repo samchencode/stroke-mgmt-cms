@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = ({ env }) => ({
   url: env("SERVER_URL"),
   port: 0,
-};
+});
