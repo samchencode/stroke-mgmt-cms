@@ -7,7 +7,7 @@
   "options": {},
   "attributes": {
     "Citation": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
